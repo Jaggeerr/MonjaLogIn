@@ -1,0 +1,20 @@
+
+
+#dedo-medio {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+}
+
+.dedo-medio-visible {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #dedo-medio {
+    max-width: 50%;
+  }
+}
